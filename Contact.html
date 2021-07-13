@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="styling/contact.css">
+
+</head>
+<body>
+<nav>
+<div>
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="CV.html">CV</a></li>
+			<li><a href="Blog.html">Blogs</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="Research.html">Research</a></li>
+		</ul>
+	</div>
+	</nav>
+	
+	<div class="M416" >
+	<tr align="center">
+	<td colspan="2">
+	<form name="myForm" onsubmit="" style="color:#black; background-color:#eeeeee;">
+	<br>
+	<tr class="Name">
+	<label><b>First Name :</b></label>
+	<input type="text" name="fname">
+	</tr><br><br>
+	<tr class="caste">
+	<label><b>Last Name :</b></label>
+	<input type="text" name="lname">
+	</tr><br><br>
+	<tr class="em">
+	<label><b>Email :</b></label>
+	<input type="text" name="email">
+	</tr><br><br>
+	<tr>
+	<tr class="add">
+	<label><b>Address :</b></label>
+	<input type="text" name="address">
+	</tr><br><br>
+	<tr class="conta">
+	<label><b>Contact No:</b></label>
+	<input type="text" name="numb">
+	</tr><br><br>
+	<tr>
+	<label><b>Gender:</b></label>
+	<input type="radio" id="male" name="gender"><label for="male">Male</label>
+    <input type="radio" id="female" name="gender"><label for="female">Female</label>
+    <input type="radio" id="other" name="gender"><label for="order">Other</label>
+	</tr><br>
+	<tr>
+	<label><b>Message:</b></label></tr><br>
+	<textarea name="report" rows="3" cols="30"></textarea>
+	<tr><br>
+	<input type="submit"value="submit"></tr>
+	</form>
+	<br>
+	</td>
+	</tr>
+</div>
+
+	<script type="text/javascript">
+    
+
+    function validation(){
+
+      var First Name = document.getElementById(' First Name').value;
+      var Last Name = document.getElementById('Last Name').value;
+      var Email = document.getElementById('Email').value;
+      var Address = document.getElementById('Address').value;
+      var Contact = document.getElementById('Contact').value;
+      var Gender = document.getElementById('Gender').value;
+      var Message = document.getElementById('Message').value;
+
+
+
+
+
+      if(First Name == ""){
+        document.getElementById('First Name').innerHTML =" ** Please fill the username field";
+        return false;
+      }
+     
+     if(Last Name == ""){
+        document.getElementById('Last Name').innerHTML =" ** Please fill the username field";
+        return false;
+      }
+
+
+     if(Email == ""){
+        document.getElementById('Email').innerHTML =" ** Please fill the email  field";
+        return false;
+      }
+
+      if(Address == ""){
+        document.getElementById('Address').innerHTML =" ** Please fill the address field";
+        return false;
+      }
+      
+
+      if(Contact == ""){
+        document.getElementById('Contact').innerHTML =" ** Please fill the contact  field";
+        return false;
+      }
+
+       if(Gender == ""){
+        document.getElementById('Gender').innerHTML =" ** Please fill the gender  field";
+        return false;
+      }
+
+       if(Message == ""){
+        document.getElementById('Message').innerHTML =" ** Please fill the message field";
+        return false;
+      }
+
+        else{
+          alert("Thank you for your feedback")
+        }
+     
+    }
+
+  </script>
+      <footer>
+		
+		<div class="icon">
+				<a href="https://facebook.com"><img src="Images/facebook.png"></a>
+        		<a href="https://twitter.com"><img src="Images/twitter.png"></a>
+        		<a href="https://instagram.com"><img src="Images/instagram.png"></a>
+				<p class="right">
+				&copy;copy Copyrights 2020 @ Sujit Shrestha
+		</p>
+			</div>
+			
+</footer>
+</body>
+</html>

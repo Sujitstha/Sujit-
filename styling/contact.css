@@ -1,0 +1,56 @@
+div{
+			padding: 4px;
+		}
+		.M416{
+			height: 70vh;
+			width: 100%;
+		}
+		ul{
+			float: right;
+			list-style-type: none;
+			margin: auto;
+		}
+
+		ul li{
+			display: inline-block;
+		}
+
+		ul li a{
+			text-decoration: none;
+			color: white;
+			padding: 2px 20px;
+			border: 1px solid transparent;
+			font-size: 20px;
+		}
+
+		ul li a:hover{
+			background-color: black;
+			color: red;
+		}
+		table{
+			padding: 100px;
+			top: 50px;
+		}
+		nav{
+			padding-top: 0px;
+			height: 10vh;
+			width: 100%;
+			background-color: black;
+		}
+		footer{
+			background-color: #abc;
+			height: 14vh;
+			width: 100%;
+			bottom: 0%;
+		}
+		.right{
+			
+			text-align: center;
+			color: black;
+		}
+		div.icon img{
+			width: 3%;
+			height:3%;
+		}
+
+		
